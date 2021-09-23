@@ -42,7 +42,7 @@ class MyCustomForm extends StatelessWidget {
           child: TextFormField(
             decoration: const InputDecoration(
               border: UnderlineInputBorder(),
-              labelText: 'моя жопа джуси',
+              labelText: 'Password',
             ),
           ),
         ),
