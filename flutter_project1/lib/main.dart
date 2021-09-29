@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
               'Рандомное число, берущееся с random api',
@@ -62,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _getRandomValue,
         tooltip: 'Рандом',
         child: const Icon(Icons.refresh),
+        splashColor: Colors.purpleAccent,
       ),
     );
   }
