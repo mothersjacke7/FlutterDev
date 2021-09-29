@@ -1,5 +1,5 @@
 name: flutter_project1
-description: A new Flutter project.
+description: randomizer
 
 
 zpublish_to: 'none'
@@ -15,6 +15,7 @@ dependencies:
   dio: ^4.0.0
 
   cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -23,9 +24,20 @@ dev_dependencies:
 
   flutter_lints: ^1.0.0
 
+assets: 
+  - google_fonts/
 
 
 flutter:
-
-
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Bold.ttf
+          weight: 700
   uses-material-design: true

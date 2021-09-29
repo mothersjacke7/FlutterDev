@@ -52,7 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Рандомное число, берущееся с random api',
+              'randomizer',
+              style: TextStyle(fontStyle: FontStyle.italic),
             ),
             Counter(_value),
           ],
