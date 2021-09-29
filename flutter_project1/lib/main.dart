@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: const MyHomePage(title: 'Онлайн рандомизер'),
+      home: const MyHomePage(
+        title: 'random api',
+      ),
     );
   }
 }
